@@ -12,4 +12,9 @@ class BActivity : AppCompatActivity() {
     override fun onRestart() {
         super.onRestart()
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        //master才有这个方法
+    }
 }
