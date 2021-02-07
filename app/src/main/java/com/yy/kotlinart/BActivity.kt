@@ -10,6 +10,8 @@ class BActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_b)
         Log.d("BActivity","first1")
+        Log.d("BActivity","two")
+
     }
 
     override fun onRestart() {
