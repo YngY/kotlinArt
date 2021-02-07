@@ -15,4 +15,9 @@ class BActivity : AppCompatActivity() {
     override fun onRestart() {
         super.onRestart()
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        //first1也有这个方法 制造冲突
+    }
 }
