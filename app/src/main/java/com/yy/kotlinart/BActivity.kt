@@ -8,4 +8,8 @@ class BActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_b)
     }
+
+    override fun onRestart() {
+        super.onRestart()
+    }
 }
